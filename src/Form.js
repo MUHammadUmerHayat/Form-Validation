@@ -17,7 +17,7 @@ const Form=()=>{
         e.preventDefault();
         const isValid=formValidation();
         if(isValid){
-            // we can add this data to show by using api 
+            // Here we can use Api 
             setFirstName(" ");
             setLastName(" ");
             setAge("");
