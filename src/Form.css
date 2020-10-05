@@ -42,7 +42,7 @@ input{
 }
 
 button{
-    margin-top: 3% !important;
+    margin-top: 3%;
     width: 90%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -58,6 +58,25 @@ button{
     font-family: cursive;
     font-size: 0.8em;
 }
+
+@media screen and (max-width: 1000px) {
+    form{
+        width: 50%;
+        position: fixed;
+        top: 7%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    form{
+        width: 80%;
+        position: fixed;
+        top: 7%;
+    }
+  }
+
+
+  
 
 
 
